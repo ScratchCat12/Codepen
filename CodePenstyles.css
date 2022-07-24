@@ -1,0 +1,179 @@
+body {
+    margin: 0px;
+}
+.navbar {
+    background-color: black;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    letter-spacing: -1px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+}
+.navbar a {
+    color: white;
+    text-decoration: none;
+}
+.left-nav {
+    display: flex;
+    align-items: center;
+}
+.logo img {
+    width: 250px;
+    height: 65px;
+    margin: 10px 40px 5px 10px;
+}
+.nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 1.4em;
+    padding-right: 50px;
+}
+.ex {
+    color: goldenrod;
+    font-weight: 500;
+}
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+    width: 450px;
+}
+.spark {
+    opacity: 0.6;
+    font-weight: 400;
+    margin-left: 15px;
+}
+.buttons {
+    display: flex;
+    justify-content: space-between;
+
+}
+.Create {
+    background-color: rgb(50, 50, 60);
+    font-size: 1.2em;
+    padding: 15px 18px;
+    border-radius: 2px;
+    margin: 5px;
+}
+.Create i {
+    color: rgb(150, 220, 150);
+}
+.search {
+    padding: 15px 18px;
+    color: rgb(100, 100, 120);
+    font-size: 2em;
+}
+.login {
+    background-color: rgb(50, 50, 60);
+    padding: 15px 18px;
+    border-radius: 2px;
+    margin: 5px;
+    font-size: 1.2em;
+}
+.signup {
+    background-color: rgb(50, 50, 60);
+    padding: 15px 18px;
+    border-radius: 2px;
+    margin: 5px;
+    font-size: 1.2em;
+}
+
+.content {
+    background-color: rgb(60, 60, 60);
+    color: rgb(200, 200, 200);
+    background-image: radial-gradient(farthest-side at 32.5% 25%, rgb(70, 70, 80), rgb(30, 30, 40));
+    display: flex;
+    justify-content: space-between;
+}
+.left {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 100;
+    font-size: 2.5em;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.P1 p {
+    margin: 0px;
+}
+.P1 em {
+    font-style: normal;
+}
+.P1 :nth-child(2) {
+    color: white;
+    font-family: "Roboto", sans-serif;
+}
+.P2 {
+    font-size: 0.8em;
+}
+.help {
+    height: 50px;
+}
+.more-buttons {
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    flex-direction: row;
+
+}
+.signup-free {
+    background-color: rgb(120, 230, 150);
+    color: black;
+    padding: 20px 30px;
+    border-radius: 3px;
+    margin-right: 25px;
+}
+.learn {
+    background-color: black;
+    color: white;
+    padding: 20px 30px;
+    border-radius: 3px;
+}
+
+.text {
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    flex-direction: row;
+    margin: 50px 0px 5px 5px;
+    color: white;
+    font-weight: 900;
+}
+.codepenprojects {
+    color: rgb(0, 230, 255);
+    margin-left: 4px;
+}
+.img img{
+    width: 700px;
+    box-shadow: -30px -30px 120px 35px rgba(0,0,0,0.25);
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 3px 0px 100% 0px;
+    background-color: rgb(30, 30, 40);
+}
+.foot {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+    background-color: rgb(50, 50, 60);
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.4em;
+    padding: 20px 0px;
+    border: solid rgb(100, 100, 100) 1px;
+    width: 100%;
+}
+.for {
+    margin-right: 5px;
+}
+.bold {
+    font-weight: bolder;
+    font-size: 1.2em;
+}
